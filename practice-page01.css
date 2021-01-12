@@ -1,0 +1,10 @@
+h1:hover{
+    color: firebrick;
+}
+.special-effect:hover{
+    font-family: cursive;
+    font-size: 60px;
+    color: indigo;
+    text-align: center;
+   
+ }
