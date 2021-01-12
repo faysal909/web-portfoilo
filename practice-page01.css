@@ -1,5 +1,7 @@
 h1:hover{
     color: firebrick;
+    text-align: center; 
+
 }
 .special-effect:hover{
     font-family: cursive;
@@ -7,4 +9,64 @@ h1:hover{
     color: indigo;
     text-align: center;
    
+ }
+ input:focus{
+     font-weight: 700;
+     color: firebrick;
+     font-size: 15px;
+ }
+ li:last-child{
+     background-color: gray;
+     color: pink;
+
+ }
+ li:nth-child(2n+1){
+     color: red;
+ }
+ a:visited{
+     color: red;
+ }
+ h1::before{
+     content: "hello";
+     color: salmon;
+ }
+h2::after{
+    content: " Bye";
+    color: cyan;
+
+
+}
+body{
+    counter-reset: section;
+}
+p::before{
+    counter-increment: section;
+    content: " friend  " counter(section) ":";
+    
+}
+p::after{
+    content: "❤️";
+}
+.container{
+    background-color: lightblue;
+}
+ div{
+     height: 100px;
+     width: 100px;
+ }
+ #first{
+     background-color: forestgreen;
+     
+ }
+ #second{
+     background-color:slateblue;
+     position: relative;
+     left: 100px;
+     
+ }
+ #third{
+     background-color: hotpink;
+ } .video{
+     height: 50px;
+     width: 50px;
  }
