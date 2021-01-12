@@ -39,14 +39,14 @@ h2::after{
 body{
     counter-reset: section;
 }
-p::before{
+/*p::before{
     counter-increment: section;
     content: " friend  " counter(section) ":";
     
 }
 p::after{
     content: "❤️";
-}
+}*/
 .container{
     background-color: lightblue;
 }
@@ -69,4 +69,15 @@ p::after{
  } .video{
      height: 50px;
      width: 50px;
+ }
+ td,th{
+     border: 1px solid lightgray;
+     padding: 0 10px;
+ }
+ table{
+     border-collapse: collapse;
+ }
+ section{
+     height: 300px;
+     margin-top: ;
  }
